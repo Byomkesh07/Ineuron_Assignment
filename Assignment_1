@@ -22,3 +22,12 @@ if (age>=18):
     print("I can vote")
 else:
     print("I can't vote")
+
+23. Write a code that displays the sum of all the even numbers from the given list.
+
+num = [12, 75, 150, 180, 145, 525, 50]
+sum=0
+for i in num:
+   if (i%2==0):
+    sum=sum+i
+print("The sum of the given even numbers is ",sum)
