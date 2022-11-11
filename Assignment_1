@@ -5,10 +5,20 @@ Ans.
 
 17. Write a code to take a number as an input from the user and check if the number is odd or even.
 
-#Decalaring Variable
+#Decalaring Variables
 
 a=int(input("Enter a No.: "))
 if (a%2==0):
     print("The No. ",a," is an Even Number")
 else:
     print("The No. ",a," is an odd Number")   
+
+22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+
+#Declaring Variables
+
+age= int(input("Enter Your Age: "))
+if (age>=18):
+    print("I can vote")
+else:
+    print("I can't vote")
