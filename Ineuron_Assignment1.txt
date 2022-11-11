@@ -21,7 +21,7 @@ Ans. Pros - a. It's Simple.
                     f.It has Lots of Libraries.
                     g.It has Built-in Data Structures.
                     h.It's Widely Applicable.
-        Cons-a.Poor Memory Efficiency.
+        Cons-a. Poor Memory Efficiency.
                   b.Database Access.
                   c.Weak in Mobile Computing.
                   d.Runtime Errors.
