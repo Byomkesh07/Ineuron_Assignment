@@ -45,3 +45,11 @@ elif(c>a and c>b):
     print(c," is the greatest no among three numbers")
 else:
     print("All are equal")
+
+25. Write a program to display only those numbers from a list that satisfy the following conditions
+- The number must be divisible by five.
+
+a=[10,24,30,45,51,60,65]
+for i in a:
+    if(i%5==0):
+        print(i)
