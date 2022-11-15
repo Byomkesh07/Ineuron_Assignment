@@ -33,3 +33,11 @@ print(str2)
 lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]     
 new=lst[4]
 print(new[2])
+
+# Q39. Add the word "Big" in the 3rd index of the given list.
+
+# lst = ["Welcome", "to", "Data", "course"]
+
+lst = ["Welcome", "to", "Data", "course"]
+lst.insert(3, "Big")
+print(lst)
