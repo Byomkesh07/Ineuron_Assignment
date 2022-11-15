@@ -61,3 +61,11 @@ r=float(input("Enter the rate of interest: "))
 t=int(input("Enter the time in year: "))
 float_SI= (p*r*t)/100
 print("The Simple Interst is: ",float_SI)
+
+# Q78. Write a Python program to calculate the compound interest. Formula of compound interest is A = P(1+ R/100)^t.
+
+p=int(input("Enter the priciple amount: "))
+r=float(input("Enter the rate of interest: "))
+t=int(input("Enter the time in year: "))
+float_CI= p*(1+ r/100)**t
+print("The Compund Interst is: ",float_CI)
