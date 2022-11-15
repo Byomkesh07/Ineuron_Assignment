@@ -41,3 +41,15 @@ print(new[2])
 lst = ["Welcome", "to", "Data", "course"]
 lst.insert(3, "Big")
 print(lst)
+
+# Q76. Write a Python program to find the factorial of a given number.
+
+def fact(a):
+    fact2=1
+    for i in range(1, a+1):
+        fact2=fact2*i
+    return fact2
+num=int(input("Enter a no.: "))
+
+ans=fact(num)
+print(ans)
