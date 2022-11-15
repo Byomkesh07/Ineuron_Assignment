@@ -25,3 +25,11 @@ for i in range((len(str1)-1),8,-1):
 
 str2="'iNeuron's Big Data Course'"
 print(str2) 
+
+# Q37. Write a code to access the word "iNeuron" from the given list.
+
+# lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
+
+lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]     
+new=lst[4]
+print(new[2])
