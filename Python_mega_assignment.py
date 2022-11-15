@@ -53,3 +53,11 @@ num=int(input("Enter a no.: "))
 
 ans=fact(num)
 print(ans)
+
+# Q77. Write a Python program to calculate the simple interest. Formula to calculate simple interest is SI = (PRT)/100
+
+p=int(input("Enter the priciple amount: "))
+r=float(input("Enter the rate of interest: "))
+t=int(input("Enter the time in year: "))
+float_SI= (p*r*t)/100
+print("The Simple Interst is: ",float_SI)
