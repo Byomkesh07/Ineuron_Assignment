@@ -69,3 +69,13 @@ r=float(input("Enter the rate of interest: "))
 t=int(input("Enter the time in year: "))
 float_CI= p*(1+ r/100)**t
 print("The Compund Interst is: ",float_CI)
+
+# Q79. Write a Python program to check if a number is prime or not.
+
+int_a=int(input("Enter the no.: "))
+if (int_a==2):
+    print("This is an even prime no.")
+elif (int_a%2==0):
+    print("This is not a prime no.")
+else:
+    print("This is a prime no.")
