@@ -18,3 +18,10 @@ print(str1[9 : 16])
 str1 = "Big Data iNeuron"
 for i in range((len(str1)-1),8,-1):
     print(str1[i],end="")
+
+# Q33. How can you print the below string?
+
+# 'iNeuron's Big Data Course'
+
+str2="'iNeuron's Big Data Course'"
+print(str2) 
