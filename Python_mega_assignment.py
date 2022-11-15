@@ -4,6 +4,10 @@
 # desired_output = "iNeuron"
 
 str1 = "Big Data iNeuron"
+for i in range((len(str1)-7),16,+1):
+    print(str1[i],end="")
+    or 
+str1 = "Big Data iNeuron"
 print(str1[9 : 16])
 
 # Q29. Write a code to get the desired output of the following
