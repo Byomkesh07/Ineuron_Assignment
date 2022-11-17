@@ -176,3 +176,14 @@ for i in test_list:
 res=list(set(res))
 print("The unique values in list are : " + str(res))
 
+#Q91. Write a Python program to merge two dictionary.
+
+dict1 = {'x': 10, 'y': 8}
+dict2 = {'a': 6, 'b': 4}
+print("Dictionary No. 1 is : ", dict1) 
+print("Dictionary No. 2 is : ", dict2)    
+dict3 = dict1.copy()   
+for k, v in dict2.items():   
+    dict3[k] = v  
+print("After merging of the two Dictionary ")  
+print(dict3)
