@@ -93,3 +93,15 @@ if sum == num:
     print(num,"is an armstrong no.")
 else:
     print(num,"is not an armstrong no.")     
+
+#Q81. Write a Python program to find the n-th Fibonacci Number.
+
+I cannot get it
+
+#Q82. Write a Python program to interchange the first and last element in a list.
+
+numbers = [12, 75, 150, 180, 145, 525, 50]
+numbers[0]=50
+numbers[6]=12
+print(numbers)    
+
