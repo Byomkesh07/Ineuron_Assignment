@@ -117,3 +117,13 @@ n = int(input('Which largest you want? '))
 l = [1,3,2,5,4] 
 l.sort(reverse = True) 
 print(l[n-1])    
+
+#Q85. Write a Python program to find cumulative sum of a list.
+
+l = [1,3,2,5,4]
+m=[]
+sum=0
+for i in range(0,len(l)):
+    sum = sum + l[i]
+    m.append(sum)
+print("Cumulative sum of list is ",m) 
