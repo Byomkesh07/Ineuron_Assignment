@@ -105,3 +105,10 @@ numbers[0]=50
 numbers[6]=12
 print(numbers)    
 
+#Q83. Write a Python program to swap two elements in a list.
+
+numbers = [12, 75, 150, 180, 145, 525, 50]
+numbers[1]=numbers[3]
+numbers[2]=numbers[5]
+print(numbers)
+
