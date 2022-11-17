@@ -111,3 +111,9 @@ numbers[1]=numbers[3]
 numbers[2]=numbers[5]
 print(numbers)
 
+#Q84. Write a Python program to find N largest element from a list.
+
+n = int(input('Which largest you want? ')) 
+l = [1,3,2,5,4] 
+l.sort(reverse = True) 
+print(l[n-1])    
