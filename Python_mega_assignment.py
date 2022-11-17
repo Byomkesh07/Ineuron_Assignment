@@ -207,3 +207,9 @@ print(dict1)
 l1 = [9, 5, 6]
 result =[(value, value**3) for value in l1]
 print(result)
+
+#Write a Python program to get all combinations of 2 tuples.
+# Input : test_tuple1 = (7, 2), test_tuple2 = (7, 8)
+# Output : [(7, 7), (7, 8), (2, 7), (2, 8), (7, 7), (7, 2), (8, 7), (8, 2)]
+
+cannot get it
