@@ -135,3 +135,14 @@ if str1 == str1[ : : -1]:
     print(str1,"is a palindrome word")
 else:
     print(str1,"is not a palindrome word") 
+
+#Q87. Write a Python program to remove i'th element from a string.
+
+str1 = input("Enter the string: ")
+i = int(input("Enter the index which you want to remove: "))
+rest_str= ""
+for j in range(0,len(str1)):
+    if j != i:
+        rest_str = rest_str + str1[j]
+print("The rest string is: ",rest_str)
+
