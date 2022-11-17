@@ -79,3 +79,17 @@ elif (int_a%2==0):
     print("This is not a prime no.")
 else:
     print("This is a prime no.")
+
+#Q80. Write a Python program to check Armstrong Number.
+
+sum=0
+num=int(input("Enter a no.: "))
+temp=num
+while temp>0:
+    a=(temp%10)
+    sum=sum+(a**3)
+    temp=(temp//10)
+if sum == num:
+    print(num,"is an armstrong no.")
+else:
+    print(num,"is not an armstrong no.")     
