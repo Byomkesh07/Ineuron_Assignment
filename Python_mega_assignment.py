@@ -146,3 +146,12 @@ for j in range(0,len(str1)):
         rest_str = rest_str + str1[j]
 print("The rest string is: ",rest_str)
 
+#Q88. Write a Python program to check if a substring is present in a given string.
+
+str1 = input("Enter the string: ")
+substr = input("Enter the substring: ")
+if substr in str1:
+    print("substring is present in the string")
+else:
+    print("substring is not present in the string")   
+    
