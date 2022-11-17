@@ -187,3 +187,14 @@ for k, v in dict2.items():
     dict3[k] = v  
 print("After merging of the two Dictionary ")  
 print(dict3)
+
+#Q92. Write a Python program to convert a list of tuples into dictionary.
+
+# Input : [('Sachin', 10), ('MSD', 7), ('Kohli', 18), ('Rohit', 45)]
+# Output : {'Sachin': 10, 'MSD': 7, 'Kohli': 18, 'Rohit': 45}
+
+list1 = [('Sachin', 10), ('MSD', 7), ('Kohli', 18), ('Rohit', 45)]
+dict1 = dict()
+for player,score in list1:
+    dict1.setdefault(player, []).append(score)
+print(dict1)
