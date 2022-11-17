@@ -155,3 +155,14 @@ if substr in str1:
 else:
     print("substring is not present in the string")   
     
+#Q89. Write a Python program to find words which are greater than given length k. 
+
+str1 = input("Enter the sentence: ")
+l = int(input("Enter the length: "))
+word = str1.split(" ")
+ref_list=[]
+for i in word:
+    if len(i) > l:
+        ref_list.append(i)
+print("All words which are greater than ",l,"are ",ref_list)
+
