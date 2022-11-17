@@ -127,3 +127,11 @@ for i in range(0,len(l)):
     sum = sum + l[i]
     m.append(sum)
 print("Cumulative sum of list is ",m) 
+
+#Q86. Write a Python program to check if a string is palindrome or not.
+
+str1 = input("Enter the string: ")
+if str1 == str1[ : : -1]:
+    print(str1,"is a palindrome word")
+else:
+    print(str1,"is not a palindrome word") 
