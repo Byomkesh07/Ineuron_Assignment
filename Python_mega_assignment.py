@@ -166,3 +166,13 @@ for i in word:
         ref_list.append(i)
 print("All words which are greater than ",l,"are ",ref_list)
 
+#Q90. Write a Python program to extract unquire dictionary values.
+
+test_list = [{'gfg' : 1, 'is' : 2}, {'best' : 1, 'for' : 3}, {'CS' : 2}]
+print("The original list : " + str(test_list))
+res=[]
+for i in test_list:
+    res.extend(list(i.values()))
+res=list(set(res))
+print("The unique values in list are : " + str(res))
+
