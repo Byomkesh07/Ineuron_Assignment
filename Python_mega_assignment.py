@@ -198,3 +198,12 @@ dict1 = dict()
 for player,score in list1:
     dict1.setdefault(player, []).append(score)
 print(dict1)
+
+#Q93. Write a Python program to create a list of tuples from given list having number and its cube in each tuple.
+
+# Input: list = [9, 5, 6]
+# Output: [(9, 729), (5, 125), (6, 216)]
+
+l1 = [9, 5, 6]
+result =[(value, value**3) for value in l1]
+print(result)
