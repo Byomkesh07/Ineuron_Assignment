@@ -50,7 +50,6 @@ def fact(a):
         fact2=fact2*i
     return fact2
 num=int(input("Enter a no.: "))
-
 ans=fact(num)
 print(ans)
 
