@@ -220,3 +220,17 @@ cannot get it
 # Output : [('Geeks', 8), ('for', 24), ('Geeks', 30)]
 
 can not get it
+
+#Q96. Write a python program to print below pattern.
+
+# * 
+# * * 
+# * * * 
+# * * * * 
+# * * * * * 
+
+r = int(input("Enter the no. of rows: "))
+for i in range(0,r):
+    for j in range(0,i+1):
+        print("* ",end=' ')
+    print("\n") 
