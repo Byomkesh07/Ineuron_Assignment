@@ -42,6 +42,12 @@ lst = ["Welcome", "to", "Data", "course"]
 lst.insert(3, "Big")
 print(lst)
 
+#Q44. Take a tuple as an input and print the count of elements in it.
+
+vowels = ('a', 'e', 'i', 'o', 'i', 'u')
+count = vowels.count('i')
+print(count) 
+
 # Q47. Create a set and add "iNeuron" in your set.
 
 list1 = [1,2,3,4,1,2,3,4,5,6,7,8,1]
