@@ -1,3 +1,90 @@
+Python_Mega_Assignment
+
+Q26. What is a string? How can we declare string in Python?
+
+Ans. A string is generally considered as a data type and is often implemented as an array data structure of bytes (or words) that stores a sequence of elements.      
+-	Using ‘str’ datatype. Or using input( ) function    
+
+Q27. How can we access the string using its index?
+
+Ans. We can access the characters in a string by referring to its index number inside square brackets.
+
+Q31. How can you delete entire string at once?
+
+Ans. Using ‘del’ function.
+
+Q32. What is escape sequence?
+
+Ans. An escape sequence in C language is a sequence of characters that doesn't represent itself when used inside string literal or character.
+
+Q34. What is a list in Python?
+
+Ans.  Lists are used to store multiple items in a single variable.
+
+Q35. How can you create a list in Python?
+
+Ans. By using [ ]. Like – list1 = [1,2,3,4,5] 
+
+Q36. How can we access the elements in a list?
+
+Ans. By using its index.
+
+Q40. What is a tuple? How is it different from list?
+
+Ans. Tuples are used to store multiple items in a single variable. But this items are immutable.
+
+Q41. How can you create a tuple in Python?
+
+Ans. By using  the ( ). Like – tup = (1,2,3,4)
+
+Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
+
+Ans.  once set, we cannot change a tuple. Because tuple is immutable.
+
+Q43. Can two tuple be appended. If yes, write a code for it. If not, why?
+
+Ans. Yes.
+
+tup1 = (11, 14, 0, 78, 33, 11)
+tup2 = (10, 78, 0, 56, 8, 34)
+print("The first tuple is : ")
+print(tup1)
+print("The second tuple is : ")
+print(tup2)
+my_result = tup1 + tup2
+print("The tuple after concatenation is : " )
+print(my_result)
+
+Q45. What are sets in Python?
+
+Ans. Sets are used to store multiple items in a single variable.
+
+Q49. How is update() different from add()?
+
+Ans. We use add() method to add single value to a set. We use update() method to add sequence values to a set.
+
+Q50. What is clear() in sets?
+
+Ans. The clear() method removes all elements in a set.
+
+Q51. What is frozen set?
+
+Ans. Python frozenset() Method creates an immutable Set object from an iterable. It is a built-in Python function. As it is a set object therefore we cannot have duplicate values in the frozenset
+
+Q52. How is frozen set different from set?
+
+Ans. While elements of a set can be modified at any time, elements of the frozen set remain the same after creation.
+
+Q53. What is union() in sets? Explain via code.
+
+Ans. The union of two sets A and B is defined as the set of all the elements which lie in set A and set B or both the elements in A and B altogether. The union of the set is denoted by the symbol '∪'.
+
+x = {"a", "b", "c"}
+y = {"f", "d", "a"}
+z = {"c", "d", "e"}
+result = x.union(y, z)
+print(result)
+
 # Q28. Write a code to get the desired output of the following
 
 # string = "Big Data iNeuron"
