@@ -49,6 +49,14 @@ set2 = set(list1)
 set2.add("iNeuron")
 print(set2)
 
+#Q48. Try to add multiple values using add() function.
+
+list1 = [1,2,3,4,1,2,3,4,5,6,7,8,1]
+set2 = set(list1)
+set2.add(".ai")
+set2.add("iNeuron")
+print(set2)
+
 # Q76. Write a Python program to find the factorial of a given number.
 
 def fact(a):
