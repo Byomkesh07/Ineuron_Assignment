@@ -266,3 +266,17 @@ for i in range(0,r):
     for j in range(i+1):
         print("* ", end="")
     print("\n")    
+
+#Q99. Write a python program to print below pattern.
+
+# 1 
+# 1 2 
+# 1 2 3 
+# 1 2 3 4 
+# 1 2 3 4 5
+
+r = int(input("Enter the no. of rows: "))
+for i in range(1,r+1):
+     for j in range(1,i+1):
+         print(j,end=' ')
+     print("\n")     
