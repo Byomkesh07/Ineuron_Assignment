@@ -213,3 +213,10 @@ print(result)
 # Output : [(7, 7), (7, 8), (2, 7), (2, 8), (7, 7), (7, 2), (8, 7), (8, 2)]
 
 cannot get it
+
+#Q95. Write a Python program to sort a list of tuples by second item.
+
+# Input : [('for', 24), ('Geeks', 8), ('Geeks', 30)] 
+# Output : [('Geeks', 8), ('for', 24), ('Geeks', 30)]
+
+can not get it
