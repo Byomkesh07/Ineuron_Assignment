@@ -234,6 +234,23 @@ for i in range(0,r):
     for j in range(0,i+1):
         print("* ",end=' ')
     print("\n") 
+    
+#Q97. Write a python program to print below pattern.
+
+#     *
+#    **
+#   ***
+#  ****
+# *****  
+
+for i in range(1,6):
+    for j in range(1,6):
+        if (j<=5-i):
+            print(" ",end=" ")
+        else:
+            print("*",end=" ")    
+    print("\n")   
+    
 #Q98. Write a python program to print below pattern.
 
 #     * 
