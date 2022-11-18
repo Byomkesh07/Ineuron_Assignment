@@ -280,3 +280,20 @@ for i in range(1,r+1):
      for j in range(1,i+1):
          print(j,end=' ')
      print("\n")     
+
+#Q100. Write a python program to print below pattern.
+
+# A 
+# B B 
+# C C C 
+# D D D D 
+# E E E E E
+
+r = int(input("Enter the no. of rows: "))
+x=65
+for i in range(1,r+1):
+    ch = chr(x)
+    x = x+1
+    for j in range(1,i+1):
+        print(ch,end=' ')
+    print("\n")       
