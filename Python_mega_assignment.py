@@ -42,6 +42,13 @@ lst = ["Welcome", "to", "Data", "course"]
 lst.insert(3, "Big")
 print(lst)
 
+# Q47. Create a set and add "iNeuron" in your set.
+
+list1 = [1,2,3,4,1,2,3,4,5,6,7,8,1]
+set2 = set(list1)
+set2.add("iNeuron")
+print(set2)
+
 # Q76. Write a Python program to find the factorial of a given number.
 
 def fact(a):
