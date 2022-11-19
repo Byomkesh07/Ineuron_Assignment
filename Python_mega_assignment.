@@ -76,6 +76,59 @@ Q52. How is frozen set different from set?
 
 Ans. While elements of a set can be modified at any time, elements of the frozen set remain the same after creation.
 
+Q54. What is intersection() in sets? Explain via code.
+
+Ans. intersection() method returns the intersection of set A with all the sets (passed as argument).
+-	X = {1,2,3,4}
+-	Y = {2,3,5,8}
+-	print(X.intersection(Y))
+
+Q55. What is dictionary ibn Python?
+
+Ans.  Dictionaries are used to store data values in key:value pairs.
+
+Q56. How is dictionary different from all other data structures.
+
+Ans.  A dictionary is a set of key-value pairs, with the keys being unique within the dictionary. This makes the dictionary useful for storing and retrieving values using that unique key.
+
+Q57. How can we delare a dictionary in Python?
+
+Ans. dict={ }
+
+Q59. How can we add an element in a dictionary?
+
+Ans. by using append( ).
+
+Q60. Create a dictionary and access all the values in that dictionary.
+
+Ans. The values() method will return a list of all the values in the dictionary.
+
+Q61. Create a nested dictionary and access all the element in the inner dictionary.
+
+Ans. Creating a nested dict and access all the elements – 
+people = {1: {'name': 'John', 'age': '27', 'sex': 'Male'},
+          2: {'name': 'Marie', 'age': '22', 'sex': 'Female'}}
+
+print(people[1]['name'])
+print(people[1]['age'])
+print(people[1]['sex'])
+
+Q62. What is the use of get() function?
+
+Ans. The get() method returns the value of the item with the specified key.
+
+Q63. What is the use of items() function?
+
+Ans. The items() method returns a view object. The view object contains the key-value pairs of the dictionary, as tuples in a list.
+
+Q64. What is the use of pop() function?
+
+Ans. The pop() method returns the item present at the given index. This item is also removed from the list.
+
+Q65. What is the use of popitems() function?
+
+Ans. The popitem() method removes the item that was last inserted into the dictionary.
+
 Q66. What is the use of keys() function?
 
 Ans. The keys() method returns a view object. The view object contains the keys of the dictionary, as a list.
