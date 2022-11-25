@@ -100,7 +100,12 @@ Ans. The self parameter is a reference to the current instance of the class, and
 
 Q14. How does a Python class handle operator overloading?
 
+Ans. you have + operator which is responsible for adding two numbers now if you want to add two custom class object then you will have to
+perform operator overloading.
+
 Q15. When do you consider allowing operator overloading of your classes?
+
+Ans. Same as 14.
 
 Q16. What is the most popular form of operator overloading?
 
