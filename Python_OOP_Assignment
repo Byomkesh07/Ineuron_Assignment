@@ -1,0 +1,150 @@
+Q1. What is the purpose of Python's OOP?
+
+Ans. In Python, object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming. It aims to implement real-world entities like 
+inheritance, polymorphisms, encapsulation, etc. in the programming.
+
+Q2. Where does an inheritance search look for an attribute?
+
+Ans. An inheritance search looks for an attribute first in the instance object, then in the class the instance was created from, then in all higher superclasses, progressing 
+from left to right (by default).
+
+Q3. How do you distinguish between a class object and an instance object?
+
+Ans. An instance is also the physical manifestation of a class that occupies memory and has data members. The difference between the two is that an object represents a set of
+instances while an instance is a certain, specific representation.
+
+Q4. What makes the first argument in a class’s method function special?
+
+Ans. The first argument of every class method, including init , is always a reference to the current instance of the class. By convention, this argument is always named self.
+
+Q5. What is the purpose of the init method?
+
+Ans. The __init__ method lets the class initialize the object's attributes and serves no other purpose. It is only used within classes.
+
+Q6. What is the process for creating a class instance?
+
+Ans. To create instances of a class, you call the class using class name and pass in whatever arguments its __init__ method accepts.
+
+Q7. What is the process for creating a class?
+
+Ans.  To create a class, use the keyword - class (class name) :
+
+Q8. How would you define the superclasses of a class?
+
+Ans. The class from which a class inherits is called the parent or superclass.
+
+Q9. What is the relationship between classes and modules?
+
+Ans. Modules are collections of methods and constants. They cannot generate instances. Classes may generate instances (objects), and have per-instance state
+(instance variables).
+
+Q10. How do you make instances and classes?
+
+Ans. # create a class in Python
+class Employee:
+    # Constructor of class
+    # assignment of instance variables
+    def __init__(self, name, salary ):
+        # instance variable or instance attributes
+        self.emp_name = name
+        self.emp_salary = salary
+    # method of a class
+    def displayEmployeeInfo(self):
+        print("Employee name : ",self.emp_name, " , Employee Salary : ",self.emp_salary)
+
+emp1 = Employee('Byomkesh', 6000)
+emp2 = Employee('Subhajit', 5000)
+
+emp1.displayEmployeeInfo()
+emp2.displayEmployeeInfo()
+
+Q11. Where and how should be class attributes created?
+
+Ans. Class attributes are defined outside the __init__() function.
+    class Employee:
+
+    # Class attribute
+    empCount = 0
+
+    # Constructor of class
+    # it is mainly used for assignment of instance variables
+    def __init__(self, name, salary ):
+        # instance variable or instance attributes
+        self.emp_name = name
+        self.emp_salary = salary
+        Employee.empCount += 1
+
+    # method of a class
+    def displayEmployeeInfo(self):
+        print("Employee name : ",self.emp_name, " , Employee Salary : ",self.emp_salary)
+
+        # method of a class
+    def displayEmployeeCount(self):
+        print("Employee Count : ",Employee.empCount)
+
+emp1 = Employee('Byomkesh', 6000)
+emp1.displayEmployeeInfo()
+emp1.displayEmployeeCount()
+
+emp2 = Employee('Subhajit', 5000)
+emp2.displayEmployeeInfo()
+emp2.displayEmployeeCount()
+
+Q12. Where and how are instance attributes created?
+
+Ans. Same as 11. But, Instance attributes are defined in the __init__() function.
+
+Q13. What does the term "self" in a Python class mean?
+
+Ans. The self parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class.
+
+Q14. How does a Python class handle operator overloading?
+
+Q15. When do you consider allowing operator overloading of your classes?
+
+Q16. What is the most popular form of operator overloading?
+
+Ans. A very popular and convenient example is the Addition (+) operator.
+
+Q17. What are the two most important concepts to grasp in order to comprehend Python OOP code?
+
+Ans. Both inheritance and polymorphism are fundamental concepts of object oriented programming. These concepts help us to create code that can
+be extended and easily maintainable
+
+Q18. Describe three applications for exception processing.
+
+Q19. What happens if you don't do something extra to treat an exception?
+
+Q20. What are your options for recovering from an exception in your script?
+
+Q21. Describe two methods for triggering exceptions in your script.
+
+Q22. Identify two methods for specifying actions to be executed at termination time, regardless of whether or not an exception exists.
+
+Q23. What is the purpose of the try statement?
+
+Q24. What are the two most popular try statement variations?
+
+Q25. What is the purpose of the raise statement?
+
+Q26. What does the assert statement do, and what other statement is it like?
+
+Q27. What is the purpose of the with/as argument, and what other statement is it like?
+
+Q28. What are *args, **kwargs?
+
+Q29. How can I pass optional or keyword parameters from one function to another?
+
+Q30. What are Lambda Functions?
+
+Q31. Explain Inheritance in Python with an example?
+
+Q32. Suppose class C inherits from classes A and B as class C(A,B).Classes A and B both have their own versions of method func(). If we call func() from an object of class C, which version gets invoked?
+
+Q33. Which methods/functions do we use to determine the type of instance and inheritance?
+
+Q34.Explain the use of the 'nonlocal' keyword in Python.
+
+Q35. What is the global keyword?
+
+Ans. A global keyword is a keyword that allows a user to modify a variable outside the current scope.
