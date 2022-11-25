@@ -138,9 +138,16 @@ Q24. What are the two most popular try statement variations?
 
 Q25. What is the purpose of the raise statement?
 
+Ans. The raise keyword is used to raise an exception.
+
 Q26. What does the assert statement do, and what other statement is it like?
 
+Ans. The assert keyword is used when debugging code. The assert keyword lets us test if a condition in your code returns True, if not,
+the program will raise an AssertionError.
+
 Q27. What is the purpose of the with/as argument, and what other statement is it like?
+
+Ans. The with statement is a replacement for commonly used try/finally error-handling statements.
 
 Q28. What are *args, **kwargs?
 
