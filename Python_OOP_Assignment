@@ -115,13 +115,24 @@ Q18. Describe three applications for exception processing.
 
 Q19. What happens if you don't do something extra to treat an exception?
 
+Ans. When an exception occurred, if you don't handle it, the program terminates abruptly and the code past the line that caused the exception will not get executed.
+
 Q20. What are your options for recovering from an exception in your script?
 
+Ans. After the except clause(s), we can include an else-clause. The code in the else-block executes if the code in the try: block does not raise an exception. The else-block
+is a good place for code that does not need the try: block's protection. And we also use 'Finally' keyword.
+
 Q21. Describe two methods for triggering exceptions in your script.
+
+Ans. There are two methods for triggering Python exceptions: 
+1. Try – This method catches the exceptions raised by the program. 
+2. Raise – Triggers an exception manually using custom exceptions.
 
 Q22. Identify two methods for specifying actions to be executed at termination time, regardless of whether or not an exception exists.
 
 Q23. What is the purpose of the try statement?
+
+Ans. The try block lets us test a block of code for errors.
 
 Q24. What are the two most popular try statement variations?
 
@@ -133,17 +144,39 @@ Q27. What is the purpose of the with/as argument, and what other statement is it
 
 Q28. What are *args, **kwargs?
 
+Ans. *args specifies the number of non-keyworded arguments that can be passed and the operations that can be performed on the function in Python
+whereas **kwargs is a variable number of keyworded arguments that can be passed to a function that can perform dictionary operations.
+
 Q29. How can I pass optional or keyword parameters from one function to another?
+
+Ans. 
+     # Python program to demonstrate a optional argument.
+def function(a, b=999):
+   return a+b
+print(function(2, 3))
+# In the function 1 is represented as 'a' in the function and the function uses the default value of b
+print(function(1))
+
+output : 5
+         1000
 
 Q30. What are Lambda Functions?
 
+Ans. A lambda function is a small anonymous function. A lambda function can take any number of arguments, but can only have one expression.
+
 Q31. Explain Inheritance in Python with an example?
 
-Q32. Suppose class C inherits from classes A and B as class C(A,B).Classes A and B both have their own versions of method func(). If we call func() from an object of class C, which version gets invoked?
+Q32. Suppose class C inherits from classes A and B as class C(A,B).Classes A and B both have their own versions of method func(). If we call func() from an object of
+class C, which version gets invoked?
 
 Q33. Which methods/functions do we use to determine the type of instance and inheritance?
 
-Q34.Explain the use of the 'nonlocal' keyword in Python.
+Ans. Two built-in functions isinstance() and issubclass() are used to check inheritances. The function isinstance() returns True if the object is an instance of the
+class or other classes derived from it.
+
+Q34. Explain the use of the 'nonlocal' keyword in Python.
+
+Ans. The nonlocal keyword is used to work with variables inside nested functions, where the variable should not belong to the inner function
 
 Q35. What is the global keyword?
 
