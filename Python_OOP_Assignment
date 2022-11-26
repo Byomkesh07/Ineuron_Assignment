@@ -118,6 +118,33 @@ be extended and easily maintainable
 
 Q18. Describe three applications for exception processing.
 
+Ans. 
+num = 5
+list_a = [1,2,3,4,7,90,20]
+dict_a = {'Byomkesh' : 20, 'Subhajit' : 30}
+try:
+    print("Divide number by 0 ")
+    #result = num/0
+    result = num/5
+    print(result)
+    print("Step 1 Done ")
+
+    print("Access 5'th element from List ")
+    #print(list_a[11])
+    print(list_a[5])
+    print("Step 2 Done ")
+
+    print("Access value of amit from dictionary ")
+    #print(dict_a['nitai'])
+    print(dict_a['Byomkesh'])
+    print("Step 3 Done ")
+except ZeroDivisionError:
+    print("This Error Was Ocuured Because Division by 0 Happened !!")
+except IndexError:
+    print("Error occured because out of bound index is getting accessed !!")
+except KeyError:
+    print("Search Key Doesn't Exists !!")
+
 Q19. What happens if you don't do something extra to treat an exception?
 
 Ans. When an exception occurred, if you don't handle it, the program terminates abruptly and the code past the line that caused the exception will not get executed.
@@ -135,11 +162,15 @@ Ans. There are two methods for triggering Python exceptions:
 
 Q22. Identify two methods for specifying actions to be executed at termination time, regardless of whether or not an exception exists.
 
+Ans. else & Finally.
+
 Q23. What is the purpose of the try statement?
 
 Ans. The try block lets us test a block of code for errors.
 
 Q24. What are the two most popular try statement variations?
+
+Ans. There are two other optional segments to a try block: else and finally .
 
 Q25. What is the purpose of the raise statement?
 
