@@ -209,6 +209,37 @@ Ans. A lambda function is a small anonymous function. A lambda function can take
 
 Q31. Explain Inheritance in Python with an example?
 
+Ans. Inheritance allows us to define a class that inherits all the methods and properties from another class. Parent class is the class being
+inherited from, also called base class. Child class is the class that inherits from another class, also called derived class.
+
+Example: 
+# # Base Class aka Parent Class
+class Person():
+    def __init__(self, name):
+        self.name = name 
+
+    def displayName(self):
+        print(self.name) 
+
+    # By default we can say that particular perosn is unemployed
+    def isEmployed(self):
+        print(self.name," is Un-Employed !!")
+
+# Derived Class aka Child Class
+class Employee(Person):
+
+    def isEmployed(self):
+        print(self.name," is Employed !!")
+
+
+emp = Person('rupam')
+emp.displayName()
+emp.isEmployed()
+
+emp1 = Employee('subhajit')
+emp1.displayName()
+emp1.isEmployed()
+
 Q32. Suppose class C inherits from classes A and B as class C(A,B).Classes A and B both have their own versions of method func(). If we call func() from an object of
 class C, which version gets invoked?
 
